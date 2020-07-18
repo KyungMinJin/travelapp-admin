@@ -10,10 +10,10 @@ const App = () => {
   return (
     <>
       <Route component={PostListPage} path={['/@:boardClass', '/']} exact />
-      <Route component={LoginPage} path='/login' />
-      <Route component={RegisterPage} path='/register' />
-      <Route component={WritePage} path='/write' />
-      <Route component={PostPage} path='/@:boardClass/:boardId' />
+      <Route component={LoginPage} path="/login" />
+      <Route component={RegisterPage} path="/register" />
+      <Route component={WritePage} path="/write" />
+      <Route component={PostPage} path="/@:boardClass/:boardId" />
     </>
   );
 };
